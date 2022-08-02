@@ -4,11 +4,6 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 from flask import Flask, jsonify, request
-
-from safelabs.model.expense import Expense, ExpenseSchema
-from safelabs.model.income import Income, IncomeSchema
-from safelabs.model.transaction_type import TransactionType
-
 from random import randint, shuffle
 
 app = Flask(__name__)
