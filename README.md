@@ -1,17 +1,17 @@
 # ISH Processo Seletivo
 
 # Instructions to run the code:
-* git clone https://github.com/raryelcostasouza/ishProcessoSelectivo.git
+* `git clone https://github.com/raryelcostasouza/ishProcessoSelectivo.git` 
 
-## Run locally
-* cd ishProcessoSelectivo
-* pipenv --three
-* pipenv --install
-* ./bootstrap.sh
+## To Run locally
+* `cd ishProcessoSelectivo`
+* `pipenv --three`
+* `pipenv --install`
+* `./bootstrap.sh`
 
 ## To Run with Docker
-* sudo docker build -t safelabs .
-* sudo docker run --name safelabs -d -p 5000:5000 safelabs
+* `sudo docker build -t safelabs .``
+* `sudo docker run --name safelabs -d -p 5000:5000 safelabs`
 
 ## Request formats accepted:
 ```
